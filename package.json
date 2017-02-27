@@ -1,0 +1,32 @@
+{
+  "name": "goodazzburger",
+  "version": "1.0.0",
+  "description": "I created a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM (yum!). Be sure to follow the MVC design pattern; use Node and MySQL to query and route data in your app, and Handlebars to generate your HTML.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niquewill/goodAzzburger.git"
+  },
+  "keywords": [
+    "MySQL",
+    "Node",
+    "Express",
+    "Handlebars",
+    "ORM"
+  ],
+  "author": "Monique Hawkins",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/niquewill/goodAzzburger/issues"
+  },
+  "homepage": "https://github.com/niquewill/goodAzzburger#readme",
+  "dependencies": {
+    "express-handlebars": "^3.0.0",
+    "mysql": "github:mysqljs/mysql"
+  },
+  "devDependencies": {}
+}
